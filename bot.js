@@ -1,7 +1,7 @@
 var { TwitterApi } = require('twitter-api-v2');
 var { MongoClient } = require('mongodb')
 var config = require('./config.js');
-var uri = "mongodb+srv://andrewtpalo:Hast1ngs1066@cluster0.xmqxm.mongodb.net/songRatings?retryWrites=true&w=majority";
+var uri = "URI HIDDEN FOR SECURITY PURPOSES";
 var Twitter = new TwitterApi(config);
 var messages;
 var minimumTweetNum;
