@@ -1,0 +1,16 @@
+{
+    "name": "twitterbot",
+    "version": "1.0.0",
+    "description": "a bot to help with twitter",
+    "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "author": "Andrew Palo <andrewtpalo@gmail.com> (https://andrewtpalo.com/)",
+    "license": "MIT",
+    "dependencies": {
+        "mongodb": "^4.5.0",
+        "twit": "^2.2.11",
+        "twitter-api-v2": "^1.12.0"
+    }
+}
